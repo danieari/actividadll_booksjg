@@ -1,0 +1,17 @@
+/* declarar unas variables de colores y fuentes */
+:root{
+    /* fuentes */
+    --titulos:'Open Sans', sans-serif;
+    --parrafos:'Inter Tight', sans-serif;
+    /* colores corporativos */
+    --encabezado: #3b0d0d;
+    --piepagina: #000;
+    --enlace: #fff;
+    --enlacesobre: #cf5992;
+    
+}
+
+/* configuracion global */
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--titulos);
+}
